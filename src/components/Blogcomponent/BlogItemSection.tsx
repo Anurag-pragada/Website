@@ -1,5 +1,5 @@
 import NewsItem from "./BlogItem";
-import newsData from "./blogs";
+import newsData from "./blogs.tsx";
 import "./Blog.css";
 
 function BlogItemSection() {

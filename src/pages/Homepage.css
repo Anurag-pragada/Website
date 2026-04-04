@@ -236,3 +236,29 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px 0;
+}
+
+.icon {
+  font-size: 34px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Colors matching your screenshot style */
+.youtube {
+  color: #ff0000;
+}
+
+.facebook {
+  color: #1877f2;
+}
+
+.twitter {
+  color: #1da1f2;
+}

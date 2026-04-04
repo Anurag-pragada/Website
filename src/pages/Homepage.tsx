@@ -1,9 +1,6 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import My_picture from "../images/My_picture.jpg";
-import coursesData from "./courseTablecomponent/coursesData";
-import CourseTable from "./courseTablecomponent/courseTable";
 import C_language_digital_book_cover from "../images/C_language_digital_book_cover.jpg";
-import "./Homepage.css";
 import Python_digital_book_cover from "../images/Python_digital_book_cover.jpg";
 import Oracle_digital_book_cover from "../images/Oracle_digital_book_cover.jpg";
 import Java_digital_book_cover from "../images/Java_digital_book_cover.jpg";
@@ -15,8 +12,13 @@ import Java_certified_Business_component_developer from "../images/Java_certifie
 import Microsoft_certified_Technology_specialist from "../images/Microsoft_certified_Technology_specialist.png";
 import Oracle_certified_Database_SQL from "../images/Oracle_certified_Database_SQL.png";
 import Oracle_certified_PL_SQL_developer from "../images/Oracle_certified_PL_SQL_developer.png";
-import BlogItemSection from "./Blogcomponent/BlogItemSection";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
+import BlogItemSection from "../components/Blogcomponent/BlogItemSection";
+import CourseTable from "../components/courseTablecomponent/courseTable";
+import coursesData from "../components/courseTablecomponent/coursesData";
+import "./Homepage.css";
+import { FaYoutube, FaFacebookF, FaTwitter } from "react-icons/fa";
+
 
 
 const Homepage = () => {
@@ -110,6 +112,19 @@ const Homepage = () => {
         {/* Right Sidebar */}
         <aside className="right-sidebar">
           <div className="sidebar-box">
+                <div className="social-container">
+      <a href="https://www.youtube.com/user/srikanthpragada" target="_blank" rel="noreferrer">
+        <FaYoutube className="icon youtube" />
+      </a>
+
+      <a href="https://www.facebook.com/srikanthtechnologies" target="_blank" rel="noreferrer">
+        <FaFacebookF className="icon facebook" />
+      </a>
+
+      <a href="https://x.com/srikanthpragada" target="_blank" rel="noreferrer">
+        <FaTwitter className="icon twitter" />
+      </a>
+    </div>
             <div className="sidebar-title">Quick Links</div>
             <ul>
               <li>Udemy Courses</li>

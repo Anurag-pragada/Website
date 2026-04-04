@@ -1,0 +1,65 @@
+.about-page {
+  background: #efefef;
+  min-height: 100vh;
+  padding: 30px 20px 50px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #c85b54;
+  display: inline-block;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333;
+  max-width: 1100px;
+  margin: 0 0 35px;
+  text-align: left;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f7f7f7;
+}
+
+.contact-table td {
+  border: 1px solid #d6d6d6;
+  padding: 16px;
+  vertical-align: top;
+  font-size: 15px;
+}
+
+.label {
+  width: 280px;
+  background: #f1f1f1;
+  font-weight: 700;
+  color: #111;
+}
+
+.value {
+  background: #fafafa;
+  color: #222;
+  line-height: 1.5;
+}
+
+.value a {
+  color: #3d68b3;
+  text-decoration: none;
+}
+
+.value a:hover {
+  text-decoration: underline;
+}
