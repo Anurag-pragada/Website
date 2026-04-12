@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
+
 import "./About.css";
 
 
 const About = () => {
     return (
         <>
-        <Navbar/>
             <div className="about-page">
   <div className="about-container">
     <h1 className="about-heading">About Srikanth Technologies</h1>

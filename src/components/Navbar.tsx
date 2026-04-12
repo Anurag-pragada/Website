@@ -1,58 +1,73 @@
-import banner from "../images/banner.jpg";
-import "./Navbar.css";
+import banner_2 from "../assets/images/banner_2.png";
 
 const Navbar = () => {
   return (
-       <>
-      <img 
-        src={banner} 
-        alt="logo" 
-        style={{ width: "100%", height: "auto" }} 
-      />
-      <nav className="navbar">
-        <ul className="nav-left">
-          <li>Home</li>
-          <li>Blog</li>
+    <>
+      {/* Banner */}
+      <div className="w-full bg-red-600 shadow-md">
+        <img src={banner_2} alt="logo" className="w-full h-auto" />
+      </div>
 
-          <li className="dropdown">
-            Training ▾
-            <ul className="dropdown-menu">
-              <li>Course Schedule</li>
-              <li>Courses offered</li>
-              <li>Corporate Training</li>
-              <li>Video Courses</li>
-            </ul>
-          </li>
+      {/* Navbar */}
+      <nav className="bg-[#1f1f1f] text-white px-4 py-2">
+        <div className="flex items-center justify-between">
+          {/* Left Menu */}
+          <ul className="flex items-center gap-6 text-sm font-medium">
+            <li className="hover:text-gray-300 cursor-pointer">Home</li>
+            <li className="hover:text-gray-300 cursor-pointer">Blog</li>
 
-          <li className="dropdown">
-            Resources ▾
-            <ul className="dropdown-menu">
-              <li>Projects</li>
-              <li>Programs</li>
-              <li>Video Tutorials</li>
-              <li>My Favorites</li>
-            </ul>
-          </li>
+            {/* Training Dropdown */}
+            <li className="relative group cursor-pointer">
+              Training ▾
+              <ul className="absolute left-0 mt-2 hidden w-48 bg-white text-black shadow-lg rounded-md group-hover:block">
+                <li className="px-4 py-2 hover:bg-gray-100">Course Schedule</li>
+                <li className="px-4 py-2 hover:bg-gray-100">Courses offered</li>
+                <li className="px-4 py-2 hover:bg-gray-100">
+                  Corporate Training
+                </li>
+                <li className="px-4 py-2 hover:bg-gray-100">Video Courses</li>
+              </ul>
+            </li>
 
-          <li>Exam</li>
-          
-          <li className="dropdown">
-            Books ▾
-            <ul className="dropdown-menu">
-              <li>Books Read</li>
-              <li>Books Written</li>
-            </ul>
-          </li>
+            {/* Resources Dropdown */}
+            <li className="relative group cursor-pointer">
+              Resources ▾
+              <ul className="absolute left-0 mt-2 hidden w-48 bg-white text-black shadow-lg rounded-md group-hover:block">
+                <li className="px-4 py-2 hover:bg-gray-100">Projects</li>
+                <li className="px-4 py-2 hover:bg-gray-100">Programs</li>
+                <li className="px-4 py-2 hover:bg-gray-100">Video Tutorials</li>
+                <li className="px-4 py-2 hover:bg-gray-100">My Favorites</li>
+              </ul>
+            </li>
 
-          <li>Testimonials</li>
-          <li>Feedback</li>
-          <li>FAQs</li>
-          <li>About</li>
-        </ul>
+            <li className="hover:text-gray-300 cursor-pointer">Exam</li>
 
-        <div className="nav-right">
-          <input type="text" placeholder="Search" />
-          <button>🔍</button>
+            {/* Books Dropdown */}
+            <li className="relative group cursor-pointer">
+              Books ▾
+              <ul className="absolute left-0 mt-2 hidden w-48 bg-white text-black shadow-lg rounded-md group-hover:block">
+                <li className="px-4 py-2 hover:bg-gray-100">Books Read</li>
+                <li className="px-4 py-2 hover:bg-gray-100">Books Written</li>
+              </ul>
+            </li>
+
+            <li className="hover:text-gray-300 cursor-pointer">Testimonials</li>
+            <li className="hover:text-gray-300 cursor-pointer">Feedback</li>
+            <li className="hover:text-gray-300 cursor-pointer">FAQs</li>
+            <li className="hover:text-gray-300 cursor-pointer">About</li>
+          </ul>
+
+          {/* Right Search */}
+          <div className="flex items-center gap-2">
+            <input
+              type="text"
+              placeholder="Search"
+              className="px-3 py-1 text-sm rounded-md bg-white text-black placeholder-gray-500 outline-none"
+            />
+            <button className="bg-red-600 px-3 py-1 rounded-md hover:bg-red-700">
+              🔍
+            </button>
+          </div>
         </div>
       </nav>
     </>

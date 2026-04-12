@@ -5,21 +5,25 @@ import FAQs from '../pages/FAQs';
 import Blog from '../pages/Blog';
 import Testimonials from '../pages/Testimonials';
 import Feedback from '../pages/Feedback';
+import WebsiteLayout from '../components/WebsiteLayout';
+import BlogPostPage from "../pages/BlogPostPage";
 
 const AppRoutes = () => {
     return (
         <>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Homepage />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/faqs" element={<FAQs />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/testimonials" element={<Testimonials />} />
-                <Route path="/feedback" element={<Feedback />} />
+                <Route element={<WebsiteLayout />}>
+                    <Route path="/" element={<Homepage />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/faqs" element={<FAQs />} />
+                    <Route path="/testimonials" element={<Testimonials />} />
+                    <Route path="/feedback" element={<Feedback />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/blog/:slug" element={<BlogPostPage />} />
+                </Route>
             </Routes>
         </BrowserRouter>
-
         </>
     )
 

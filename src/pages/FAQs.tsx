@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar";
+
 import "./FAQs.css";
 
 const FAQs = () => {
   return (
     <>
-      <Navbar />
       <h1 className="faqs-heading">Frequently Asked Questions (FAQs)</h1>
       <p className="faqs-text">
         Here are answers for most frequently asked questions about Srikanth
