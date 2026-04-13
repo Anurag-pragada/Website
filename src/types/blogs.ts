@@ -27,7 +27,7 @@ export type InlineContent =
 export type BlogContentBlock =
   | {
       type: "paragraph";
-      text: string | RichTextContent[];
+      text: string | RichTextContent[] ;
     }
   | {
       type: "list";
@@ -36,6 +36,15 @@ export type BlogContentBlock =
   | {
       type: "table";
       rows: string[][];
+    }
+  | {
+      type: "image";
+      src: string;
+      caption?: string;
+    }
+  | {
+      type: "subheading";
+      text: string;
     };
 
 export type BlogSection = {

@@ -448,7 +448,6 @@ export const looking_Back_At_2023: BlogPost = {
             }
         ]
     },
-
     {
       id: "books-read",
       title: "Books Read",

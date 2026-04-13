@@ -36,7 +36,11 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
                 </a>
               );
             if (t.type === "bold")
-              return <strong key={i} className="font-bold text-gray-900">{t.text}</strong>;
+              return (
+                <strong key={i} className="font-bold text-gray-900">
+                  {t.text}
+                </strong>
+              );
             return null;
           })}
         </p>
@@ -68,10 +72,7 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
         <table className="min-w-full text-sm text-left divide-y divide-gray-200">
           <tbody className="bg-white divide-y divide-gray-200">
             {block.rows.map((row: string[], rowIndex: number) => (
-              <tr
-                key={rowIndex}
-                className="even:bg-gray-50 hover:bg-gray-100"
-              >
+              <tr key={rowIndex} className="even:bg-gray-50 hover:bg-gray-100">
                 {row.map((cell: string, cellIndex: number) => (
                   <td
                     key={cellIndex}
@@ -85,6 +86,34 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
           </tbody>
         </table>
       </div>
+    );
+  }
+
+  if (block.type === "subheading") {
+    return (
+      <h3 key={index} className="mt-8 mb-3 text-xl font-semibold text-red-700">
+        {block.text}
+      </h3>
+    );
+  }
+
+  if (block.type === "image") {
+    return (
+      <figure
+        key={index}
+        className="my-6 overflow-hidden bg-white border border-gray-200 rounded-xl shadow-sm"
+      >
+        <img
+          src={block.src}
+          alt={block.caption || ""}
+          className="block object-cover w-full h-auto"
+        />
+        {block.caption && (
+          <figcaption className="px-4 py-3 text-base font-semibold text-center text-gray-700">
+            {block.caption}
+          </figcaption>
+        )}
+      </figure>
     );
   }
 
@@ -130,7 +159,9 @@ const BlogPostPage = () => {
               )}
 
               <div className="space-y-4 leading-7 text-gray-800">
-                {section.content.map((block, index) => renderBlock(block, index))}
+                {section.content.map((block, index) =>
+                  renderBlock(block, index),
+                )}
               </div>
 
               {section.images && section.images.length > 0 && (
