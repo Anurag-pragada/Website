@@ -1,51 +1,51 @@
 import type { BlogPost } from "../../../types/blogs";
-import At_Sunray_Resorts_1 from "../../../assets/images/At_Sunray_Resorts_1.jpg";
-import At_Sunray_Resorts_2 from "../../../assets/images/At_Sunray_Resorts_2.jpg";
-import Bhogi_Fire_At_Sunray_Resorts from "../../../assets/images/Bhogi_Fire_At_Sunray_Resorts.jpg";
-import Myself_Flying_Kite from "../../../assets/images/Myself_Flying_Kite.jpg";
-import At_Sterling_Resort_Wayanad from "../../../assets/images/At_Sterling_Resort_Wayanad.jpg";
-import At_Phantom_Rock_Wayanad from "../../../assets/images/At_Phantom_Rock_Wayanad.jpg";
-import At_Sterling_Resort_Wayanad2 from "../../../assets/images/At_Sterling_Resort_Wayanad2.jpg";
-import At_Sterling_Resort_Wayanad3 from "../../../assets/images/At_Sterling_Resort_Wayanad3.jpg";
-import Grand_Canyon from "../../../assets/images/Grand_Canyon.jpg";
-import Chicago from "../../../assets/images/Chicago.jpg";
-import Universal_Studios_Los_Angeles from "../../../assets/images/Universal_Studios_Los_Angeles.jpg";
-import Niagara_Falls from "../../../assets/images/Niagara_Falls.jpg";
-import Moreton_Island from "../../../assets/images/Moreton_Island.jpg";
-import Brown_Lake from "../../../assets/images/Brown_Lake.jpg";
-import Bruny_Island from "../../../assets/images/Bruny_Island.jpg";
-import Bonorong_Wildlife_Sanctuary from "../../../assets/images/Bonorong_Wildlife_Sanctuary.jpg";
-import Haldi from "../../../assets/images/Haldi.jpg";
-import Dance_In_Sangeet from "../../../assets/images/Dance_In_Sangeet.jpg";  
-import Wedding_Reception from "../../../assets/images/Wedding_Reception.jpg";
-import Delivery_of_Comet from "../../../assets/images/Delivery_of_Comet.jpg";
-import At_The_End_Of_Giri_Pradakshina from "../../../assets/images/At_The_End_Of_Giri_Pradakshina.jpg";
-import Before_Pranav_Leaving_For_US from "../../../assets/images/Before_Pranav_Leaving_For_US.jpg";
-import book_2024_1 from "../../../assets/images/book_2024_1.jpg";
-import book_2024_2 from "../../../assets/images/book_2024_2.jpg";
-import book_2024_3 from "../../../assets/images/book_2024_3.jpg";
-import book_2024_4 from "../../../assets/images/book_2024_4.jpg";
-import book_2024_5 from "../../../assets/images/book_2024_5.jpg";
-import book_2024_6 from "../../../assets/images/book_2024_6.jpg";
-import book_2024_7 from "../../../assets/images/book_2024_7.jpg";
-import book_2024_8 from "../../../assets/images/book_2024_8.jpg";
-import book_2024_9 from "../../../assets/images/book_2024_9.jpg";
-import book_2024_10 from "../../../assets/images/book_2024_10.jpg";
-import book_2024_11 from "../../../assets/images/book_2024_11.jpg";
-import book_2024_12 from "../../../assets/images/book_2024_12.jpg";
-import book_2024_13 from "../../../assets/images/book_2024_13.jpg";
-import book_2024_14 from "../../../assets/images/book_2024_14.jpg";
-import book_2024_15 from "../../../assets/images/book_2024_15.jpg";
-import book_2024_16 from "../../../assets/images/book_2024_16.jpg";
-import book_2024_17 from "../../../assets/images/book_2024_17.jpg";
-import book_2024_18 from "../../../assets/images/book_2024_18.jpg";
-import book_2024_19 from "../../../assets/images/book_2024_19.jpg";
-import book_2024_20 from "../../../assets/images/book_2024_20.jpg";
-import book_2024_21 from "../../../assets/images/book_2024_21.jpg";
+import At_Sunray_Resorts_1 from "../../../assets/images/Personal/Looking_Back_At_2024/At_Sunray_Resorts_1.jpg";
+import At_Sunray_Resorts_2 from "../../../assets/images/Personal/Looking_Back_At_2024/At_Sunray_Resorts_2.jpg";
+import Bhogi_Fire_At_Sunray_Resorts from "../../../assets/images/Personal/Looking_Back_At_2024/Bhogi_Fire_At_Sunray_Resorts.jpg";
+import Myself_Flying_Kite from "../../../assets/images/Personal/Looking_Back_At_2024/Myself_Flying_Kite.jpg";
+import At_Sterling_Resort_Wayanad from "../../../assets/images/Personal/Looking_Back_At_2024/At_Sterling_Resort_Wayanad.jpg";
+import At_Phantom_Rock_Wayanad from "../../../assets/images/Personal/Looking_Back_At_2024/At_Phantom_Rock_Wayanad.jpg";
+import At_Sterling_Resort_Wayanad2 from "../../../assets/images/Personal/Looking_Back_At_2024/At_Sterling_Resort_Wayanad2.jpg";
+import At_Sterling_Resort_Wayanad3 from "../../../assets/images/Personal/Looking_Back_At_2024/At_Sterling_Resort_Wayanad3.jpg";
+import Grand_Canyon from "../../../assets/images/Personal/Looking_Back_At_2024/Grand_Canyon.jpg";
+import Chicago from "../../../assets/images/Personal/Looking_Back_At_2024/Chicago.jpg";
+import Universal_Studios_Los_Angeles from "../../../assets/images/Personal/Looking_Back_At_2024/Universal_Studios_Los_Angeles.jpg";
+import Niagara_Falls from "../../../assets/images/Personal/Looking_Back_At_2024/Niagara_Falls.jpg";
+import Moreton_Island from "../../../assets/images/Personal/Looking_Back_At_2024/Moreton_Island.jpg";
+import Brown_Lake from "../../../assets/images/Personal/Looking_Back_At_2024/Brown_Lake.jpg";
+import Bruny_Island from "../../../assets/images/Personal/Looking_Back_At_2024/Bruny_Island.jpg";
+import Bonorong_Wildlife_Sanctuary from "../../../assets/images/Personal/Looking_Back_At_2024/Bonorong_Wildlife_Sanctuary.jpg";
+import Haldi from "../../../assets/images/Personal/Looking_Back_At_2024/Haldi.jpg";
+import Dance_In_Sangeet from "../../../assets/images/Personal/Looking_Back_At_2024/Dance_In_Sangeet.jpg";  
+import Wedding_Reception from "../../../assets/images/Personal/Looking_Back_At_2024/Wedding_Reception.jpg";
+import Delivery_of_Comet from "../../../assets/images/Personal/Looking_Back_At_2024/Delivery_of_Comet.jpg";
+import At_The_End_Of_Giri_Pradakshina from "../../../assets/images/Personal/Looking_Back_At_2024/At_The_End_Of_Giri_Pradakshina.jpg";
+import Before_Pranav_Leaving_For_US from "../../../assets/images/Personal/Looking_Back_At_2024/Before_Pranav_Leaving_For_US.jpg";
+import book_2024_1 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_1.jpg";
+import book_2024_2 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_2.jpg";
+import book_2024_3 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_3.jpg";
+import book_2024_4 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_4.jpg";
+import book_2024_5 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_5.jpg";
+import book_2024_6 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_6.jpg";
+import book_2024_7 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_7.jpg";
+import book_2024_8 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_8.jpg";
+import book_2024_9 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_9.jpg";
+import book_2024_10 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_10.jpg";
+import book_2024_11 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_11.jpg";
+import book_2024_12 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_12.jpg";
+import book_2024_13 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_13.jpg";
+import book_2024_14 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_14.jpg";
+import book_2024_15 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_15.jpg";
+import book_2024_16 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_16.jpg";
+import book_2024_17 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_17.jpg";
+import book_2024_18 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_18.jpg";
+import book_2024_19 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_19.jpg";
+import book_2024_20 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_20.jpg";
+import book_2024_21 from "../../../assets/images/Personal/Looking_Back_At_2024/book_2024_21.jpg";
 
 
-export const looking_Back_At_2024: BlogPost = {
-  id: "1",
+export const Looking_Back_At_2024: BlogPost = {
+  id: "2",
   title: "Looking back at 2024",
   slug: "looking-back-at-2024",
   category: "Personal",

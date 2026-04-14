@@ -1,63 +1,63 @@
 import type { BlogPost } from "../../../types/blogs";
 
-import Bhogi_Fire_2023 from "../../../assets/images/Bhogi_Fire_2023.jpg";
-import Enjoying_Tiffin from "../../../assets/images/Enjoying_Tiffin.jpg";
-import Our_Kites_In_The_Sky from "../../../assets/images/Our_Kites_In_The_Sky.jpg";
-import Me_Flying_Kites from "../../../assets/images/Me_Flying_Kites.jpg";
-import Misty_Morning_In_Araku from "../../../assets/images/Misty_Morning_In_Araku.jpg";
-import Madagada_Viewpoint from "../../../assets/images/Madagada_Viewpoint.jpg";
-import Madagada_Viewpoint_1 from "../../../assets/images/Madagada_Viewpoint_1.jpg";
-import At_Coffee_Museum from "../../../assets/images/At_Coffee_Museum.jpg";
-import Our_Group_At_Ghandkuladi from "../../../assets/images/Our_Group_At_Ghandkuladi.jpg";
-import At_Rumsu from "../../../assets/images/At_Rumsu.jpg";
-import At_Ghandkuladi from "../../../assets/images/At_Ghandkuladi.jpg";
-import At_Naya_Tapru from "../../../assets/images/At_Naya_Tapru.jpg";
-import With_My_Friend_Hafiz from "../../../assets/images/With_My_Friend_Hafiz.jpg";
-import Tents_At_Ghandkuladi from "../../../assets/images/Tents_At_Ghandkuladi.jpg";
-import While_Climbing from "../../../assets/images/While_Climbing.jpg";
-import On_The_Top_At_Simhachalam_Hill from "../../../assets/images/On_The_Top_At_Simhachalam_Hill.jpg";
-import At_Srisailam_Dam from "../../../assets/images/At_Srisailam_Dam.jpg";
-import Our_Group_At_Srisailam from "../../../assets/images/Our_Group_At_Srisailam.jpg";
-import In_My_Friends_House_At_Nellore from "../../../assets/images/In_My_Friends_House_At_Nellore.jpg";
-import At_Sunray_Village_Resorts from "../../../assets/images/At_Sunray_Village_Resorts.jpg";
-import At_Sunray_Village_Resorts_1 from "../../../assets/images/At_Sunray_Village_Resorts_1.jpg";
-import Walking_In_The_Beach from "../../../assets/images/Walking_In_The_Beach.jpg";
-import At_Sai_Teerth_Devotional_Theme_Park from "../../../assets/images/At_Sai_Teerth_Devotional_Theme_Park.jpg";
+import Bhogi_Fire_2023 from "../../../assets/images/Personal/Looking_Back_At_2023/Bhogi_Fire_2023.jpg";
+import Enjoying_Tiffin from "../../../assets/images/Personal/Looking_Back_At_2023/Enjoying_Tiffin.jpg";
+import Our_Kites_In_The_Sky from "../../../assets/images/Personal/Looking_Back_At_2023/Our_Kites_In_The_Sky.jpg";
+import Me_Flying_Kites from "../../../assets/images/Personal/Looking_Back_At_2023/Me_Flying_Kites.jpg";
+import Misty_Morning_In_Araku from "../../../assets/images/Personal/Looking_Back_At_2023/Misty_Morning_In_Araku.jpg";
+import Madagada_Viewpoint from "../../../assets/images/Personal/Looking_Back_At_2023/Madagada_Viewpoint.jpg";
+import Madagada_Viewpoint_1 from "../../../assets/images/Personal/Looking_Back_At_2023/Madagada_Viewpoint_1.jpg";
+import At_Coffee_Museum from "../../../assets/images/Personal/Looking_Back_At_2023/At_Coffee_Museum.jpg";
+import Our_Group_At_Ghandkuladi from "../../../assets/images/Personal/Looking_Back_At_2023/Our_Group_At_Ghandkuladi.jpg";
+import At_Rumsu from "../../../assets/images/Personal/Looking_Back_At_2023/At_Rumsu.jpg";
+import At_Ghandkuladi from "../../../assets/images/Personal/Looking_Back_At_2023/At_Ghandkuladi.jpg";
+import At_Naya_Tapru from "../../../assets/images/Personal/Looking_Back_At_2023/At_Naya_Tapru.jpg";
+import With_My_Friend_Hafiz from "../../../assets/images/Personal/Looking_Back_At_2023/With_My_Friend_Hafiz.jpg";
+import Tents_At_Ghandkuladi from "../../../assets/images/Personal/Looking_Back_At_2023/Tents_At_Ghandkuladi.jpg";
+import While_Climbing from "../../../assets/images/Personal/Looking_Back_At_2023/While_Climbing.jpg";
+import On_The_Top_At_Simhachalam_Hill from "../../../assets/images/Personal/Looking_Back_At_2023/On_The_Top_At_Simhachalam_Hill.jpg";
+import At_Srisailam_Dam from "../../../assets/images/Personal/Looking_Back_At_2023/At_Srisailam_Dam.jpg";
+import Our_Group_At_Srisailam from "../../../assets/images/Personal/Looking_Back_At_2023/Our_Group_At_Srisailam.jpg";
+import In_My_Friends_House_At_Nellore from "../../../assets/images/Personal/Looking_Back_At_2023/In_My_Friends_House_At_Nellore.jpg";
+import At_Sunray_Village_Resorts from "../../../assets/images/Personal/Looking_Back_At_2023/At_Sunray_Village_Resorts.jpg";
+import At_Sunray_Village_Resorts_1 from "../../../assets/images/Personal/Looking_Back_At_2023/At_Sunray_Village_Resorts_1.jpg";
+import Walking_In_The_Beach from "../../../assets/images/Personal/Looking_Back_At_2023/Walking_In_The_Beach.jpg";
+import At_Sai_Teerth_Devotional_Theme_Park from "../../../assets/images/Personal/Looking_Back_At_2023/At_Sai_Teerth_Devotional_Theme_Park.jpg";
 
-import book_2023_1 from "../../../assets/images/book_2023_1.jpg";
-import book_2023_2 from "../../../assets/images/book_2023_2.jpg";
-import book_2023_3 from "../../../assets/images/book_2023_3.jpg";
-import book_2023_4 from "../../../assets/images/book_2023_4.jpg";
-import book_2023_5 from "../../../assets/images/book_2023_5.jpg";
-import book_2023_6 from "../../../assets/images/book_2023_6.jpg";
-import book_2023_7 from "../../../assets/images/book_2023_7.jpg";
-import book_2023_8 from "../../../assets/images/book_2023_8.jpg";
-import book_2023_9 from "../../../assets/images/book_2023_9.jpg";
-import book_2023_10 from "../../../assets/images/book_2023_10.jpg";
-import book_2023_11 from "../../../assets/images/book_2023_11.jpg";
-import book_2023_12 from "../../../assets/images/book_2023_12.jpg";
-import book_2023_13 from "../../../assets/images/book_2023_13.jpg";
-import book_2023_14 from "../../../assets/images/book_2023_14.jpg";
-import book_2023_15 from "../../../assets/images/book_2023_15.jpg";
-import book_2023_16 from "../../../assets/images/book_2023_16.jpg";
-import book_2023_17 from "../../../assets/images/book_2023_17.jpg";
-import book_2023_18 from "../../../assets/images/book_2023_18.jpg";
-import book_2023_19 from "../../../assets/images/book_2023_19.jpg";
-import book_2023_20 from "../../../assets/images/book_2023_20.jpg";
-import book_2023_21 from "../../../assets/images/book_2023_21.jpg";
-import book_2023_22 from "../../../assets/images/book_2023_22.jpg";
-import book_2023_23 from "../../../assets/images/book_2023_23.jpg";
-import book_2023_24 from "../../../assets/images/book_2023_24.jpg";
-import book_2023_25 from "../../../assets/images/book_2023_25.jpg";
-import book_2023_26 from "../../../assets/images/book_2023_26.jpg";
-import book_2023_27 from "../../../assets/images/book_2023_27.jpg";
-import book_2023_28 from "../../../assets/images/book_2023_28.jpg";
-import book_2023_29 from "../../../assets/images/book_2023_29.jpg";
-import book_2023_30 from "../../../assets/images/book_2023_30.jpg";
+import book_2023_1 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_1.jpg";
+import book_2023_2 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_2.jpg";
+import book_2023_3 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_3.jpg";
+import book_2023_4 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_4.jpg";
+import book_2023_5 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_5.jpg";
+import book_2023_6 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_6.jpg";
+import book_2023_7 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_7.jpg";
+import book_2023_8 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_8.jpg";
+import book_2023_9 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_9.jpg";
+import book_2023_10 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_10.jpg";
+import book_2023_11 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_11.jpg";
+import book_2023_12 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_12.jpg";
+import book_2023_13 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_13.jpg";
+import book_2023_14 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_14.jpg";
+import book_2023_15 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_15.jpg";
+import book_2023_16 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_16.jpg";
+import book_2023_17 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_17.jpg";
+import book_2023_18 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_18.jpg";
+import book_2023_19 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_19.jpg";
+import book_2023_20 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_20.jpg";
+import book_2023_21 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_21.jpg";
+import book_2023_22 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_22.jpg";
+import book_2023_23 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_23.jpg";
+import book_2023_24 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_24.jpg";
+import book_2023_25 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_25.jpg";
+import book_2023_26 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_26.jpg";
+import book_2023_27 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_27.jpg";
+import book_2023_28 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_28.jpg";
+import book_2023_29 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_29.jpg";
+import book_2023_30 from "../../../assets/images/Personal/Looking_Back_At_2023/book_2023_30.jpg";
 
 
-export const looking_Back_At_2023: BlogPost = {
-  id: "1",
+export const Looking_Back_At_2023: BlogPost = {
+  id: "3",
   title: "Looking back at 2023",
   slug: "looking-back-at-2023",
   category: "Personal",
@@ -180,7 +180,10 @@ export const looking_Back_At_2023: BlogPost = {
         },
         {
           type: "paragraph",
-          text: "My friend Hafiz and his colleagues were going for a Naya Tapru Snow Trek conducted by <a href='https://www.yhaindia.org/'>Youth Hostel Association of India (YHAI)</a> and I joined the program from 22nd Feb to 25th Feb.",
+          text: ["My friend Hafiz and his colleagues were going for a Naya Tapru Snow Trek conducted by",
+             {type: "link", text: "Youth Hostel Association of India (YHAI)", url: "https://www.yhaindia.org/"}, " and I joined the program from 22nd Feb to 25th Feb.",
+        
+            ],
         },
         {
           type: "paragraph",
@@ -294,7 +297,9 @@ export const looking_Back_At_2023: BlogPost = {
         },
         {
           type: "paragraph",
-          text: "So I took a break from Gym and joined swimming classes at <a href='https://rraquasports.in/'>RR Aqua</a> on 26th October.",
+          text: ["So I took a break from Gym and joined swimming classes at ",
+            {type: "link", text: "RR Aqua", url: "https://rraquasports.in/"}, " on 26th October."
+        ],
         },
         {
           type: "paragraph",
@@ -351,7 +356,9 @@ export const looking_Back_At_2023: BlogPost = {
     },
     {
       type: "paragraph",
-      text: "Especially enjoyed working with team and trainees at ImagInnovate. A bunch of students listening with the intent of learning is always a treat to any teacher. This is what I experience whenever I go to ImagInnovate."
+      text: ["Especially enjoyed working with team and trainees at ",
+        {type: "link", text: "ImagInnovate", url: "https://imaginnovate.com/"}, ". A bunch of students listening with the intent of learning is always a treat to any teacher. This is what I experience whenever I go to ImagInnovate."
+    ],
     },
     {
       type: "paragraph",

@@ -41,11 +41,18 @@ export type BlogContentBlock =
       type: "image";
       src: string;
       caption?: string;
+      link?: string;
     }
   | {
       type: "subheading";
       text: string;
-    };
+    }
+  |
+  {
+    type: "link";
+    text?: string;
+    url: string;
+  }
 
 export type BlogSection = {
   id: string;
@@ -56,5 +63,5 @@ export type BlogSection = {
 
 export type BlogImage = {
   src: string;
-  caption: string;
+  caption?: string;
 };

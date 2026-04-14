@@ -1,12 +1,12 @@
 import type { BlogPost } from "../../../types/blogs";
 
-import Puja_At_The_Beginning from "../../../assets/images/Puja_At_The_Beginning.jpg";
-import Classroom_At_Old_Premises from "../../../assets/images/Classroom_At_Old_Premises.jpg";
-import Classroom_At_New_Premises from "../../../assets/images/Classroom_At_New_Premises.jpg";
+import Puja_At_The_Beginning from "../../../assets/images/Personal/Twenty_Fifth_Anniversary_of_Srikanth_Technologies/Puja_At_The_Beginning.jpg";
+import Classroom_At_Old_Premises from "../../../assets/images/Personal/Twenty_Fifth_Anniversary_of_Srikanth_Technologies/Classroom_At_Old_Premises.jpg";
+import Classroom_At_New_Premises from "../../../assets/images/Personal/Twenty_Fifth_Anniversary_of_Srikanth_Technologies/Classroom_At_New_Premises.jpg";
 
 
 export const Anniversary_of_Srikanth_Technologies: BlogPost = {
-  id: "1",
+  id: "4",
   title: "25th Anniversary of Srikanth Technologies",
   slug: "25th-anniversary-of-srikanth-technologies",
   category: "Personal",

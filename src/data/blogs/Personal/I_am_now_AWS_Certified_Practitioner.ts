@@ -1,8 +1,8 @@
 import type { BlogPost } from "../../../types/blogs";
-import AWS_Certification from "../../../assets/images/AWS_Certification.jpg";
+import AWS_Certification from "../../../assets/images/Personal/I_Am_Now_Aws_Certified_Cloud_Practitioner/AWS_Certification.jpg";
 
 export const I_am_now_AWS_Certified_Practitioner: BlogPost = {
-    id: "2",
+    id: "7",
     title: "I am now AWS Certified Practitioner",
     slug: "i-am-now-aws-certified-practitioner",
     category: "Personal",

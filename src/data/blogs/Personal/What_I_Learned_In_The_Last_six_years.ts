@@ -1,7 +1,7 @@
 import type { BlogPost } from "../../../types/blogs";
 
 export const What_I_Learned_In_The_Last_six_years: BlogPost = {
-    id: "1",
+    id: "6",
     title: "What I Learned In The Last Six Years!",
     slug: "what-i-learned-in-the-last-six-years",
     category: "Personal",

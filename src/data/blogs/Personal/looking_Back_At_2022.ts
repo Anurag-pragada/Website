@@ -1,52 +1,52 @@
 import type { BlogPost } from "../../../types/blogs";
-import In_Cable_Car_At_Gulmarg from "../../../assets/images/In_Cable_Car_At_Gulmarg.jpg";
-import At_Gulmarg from "../../../assets/images/At_Gulmarg.jpg";
-import Near_Apple_Tree_At_Pahalgam from "../../../assets/images/Near_Apple_Tree_At_Pahalgam.jpg";
-import At_Sonamarg from "../../../assets/images/At_Sonamarg.jpg";
-import Whole_Group_At_Pahalgam from "../../../assets/images/Whole_Group_At_Pahalgam.jpg";
-import Boat_Ride_At_Dal_Lake from "../../../assets/images/Boat_Ride_At_Dal_Lake.jpg";
-import Bondi_Beach_In_Sydney from "../../../assets/images/Bondi_Beach_In_Sydney.jpg";
-import Harbour_Bridge_In_Sydney from "../../../assets/images/Harbour_Bridge_In_Sydney.jpg";
-import Kangaroo_At_Featherdale_Wildlife_Park from "../../../assets/images/Kangaroo_At_Featherdale_Wildlife_Park.jpg";
-import Wallaby_At_Featherdale_Wildlife_Park from "../../../assets/images/Wallaby_At_Featherdale_Wildlife_Park.jpg";
-import Koala_In_French_Island from "../../../assets/images/Koala_In_French_Island.jpg";
-import On_The_Way_To_Phillip_Island from "../../../assets/images/On_The_Way_To_Phillip_Island.jpg";
-import Twelve_Apostles_At_Great_Ocean_Road from "../../../assets/images/Twelve_Apostles_At_Great_Ocean_Road.jpg";
-import Great_Ocean_Road from "../../../assets/images/Great_Ocean_Road.jpg";
-import Quokka_In_Rottnest_Island from "../../../assets/images/Quokka_In_Rottnest_Island.jpg";
-import Rottnest_Island from "../../../assets/images/Rottnest_Island.jpg";
-import Optus_Cricket_Stadium_Perth from "../../../assets/images/Optus_Cricket_Stadium_Perth.jpg";
-import Rottnest_Island1 from "../../../assets/images/Rottnest_Island1.jpg";
-import At_Sunray_Village_Resort from "../../../assets/images/At_Sunray_Village_Resort.jpg";
-import At_Flower_Street_In_Sunray_Village_Resort from "../../../assets/images/At_Flower_Street_In_Sunray_Village_Resort.jpg";
-import At_Sterling_Palavelli_Godavari from "../../../assets/images/At_Sterling_Palavelli_Godavari.jpg";
-import book_2022_1 from "../../../assets/images/book_2022_1.jpg";
-import book_2022_2 from "../../../assets/images/book_2022_2.jpg";
-import book_2022_3 from "../../../assets/images/book_2022_3.jpg";
-import book_2022_4 from "../../../assets/images/book_2022_4.jpg";
-import book_2022_5 from "../../../assets/images/book_2022_5.jpg";
-import book_2022_6 from "../../../assets/images/book_2022_6.jpg";
-import book_2022_7 from "../../../assets/images/book_2022_7.jpg";
-import book_2022_8 from "../../../assets/images/book_2022_8.jpg";
-import book_2022_9 from "../../../assets/images/book_2022_9.jpg";
-import book_2022_10 from "../../../assets/images/book_2022_10.jpg";
-import book_2022_11 from "../../../assets/images/book_2022_11.jpg";
-import book_2022_12 from "../../../assets/images/book_2022_12.jpg";
-import book_2022_13 from "../../../assets/images/book_2022_13.jpg";
-import book_2022_14 from "../../../assets/images/book_2022_14.jpg";
-import book_2022_15 from "../../../assets/images/book_2022_15.jpg";
-import book_2022_16 from "../../../assets/images/book_2022_16.jpg";
-import book_2022_17 from "../../../assets/images/book_2022_17.jpg";
-import book_2022_18 from "../../../assets/images/book_2022_18.jpg";
-import book_2022_19 from "../../../assets/images/book_2022_19.jpg";
-import book_2022_20 from "../../../assets/images/book_2022_20.jpg";
-import book_2022_21 from "../../../assets/images/book_2022_21.jpg";
-import Sql_Course_Image from "../../../assets/images/Sql_Course_Image.jpg";
-import Java_Course_Image from "../../../assets/images/Java_Course_Image.jpg";
+import In_Cable_Car_At_Gulmarg from "../../../assets/images/Personal/Looking_Back_At_2022/In_Cable_Car_At_Gulmarg.jpg";
+import At_Gulmarg from "../../../assets/images/Personal/Looking_Back_At_2022/At_Gulmarg.jpg";
+import Near_Apple_Tree_At_Pahalgam from "../../../assets/images/Personal/Looking_Back_At_2022/Near_Apple_Tree_At_Pahalgam.jpg";
+import At_Sonamarg from "../../../assets/images/Personal/Looking_Back_At_2022/At_Sonamarg.jpg";
+import Whole_Group_At_Pahalgam from "../../../assets/images/Personal/Looking_Back_At_2022/Whole_Group_At_Pahalgam.jpg";
+import Boat_Ride_At_Dal_Lake from "../../../assets/images/Personal/Looking_Back_At_2022/Boat_Ride_At_Dal_Lake.jpg";
+import Bondi_Beach_In_Sydney from "../../../assets/images/Personal/Looking_Back_At_2022/Bondi_Beach_In_Sydney.jpg";
+import Harbour_Bridge_In_Sydney from "../../../assets/images/Personal/Looking_Back_At_2022/Harbour_Bridge_In_Sydney.jpg";
+import Kangaroo_At_Featherdale_Wildlife_Park from "../../../assets/images/Personal/Looking_Back_At_2022/Kangaroo_At_Featherdale_Wildlife_Park.jpg";
+import Wallaby_At_Featherdale_Wildlife_Park from "../../../assets/images/Personal/Looking_Back_At_2022/Wallaby_At_Featherdale_Wildlife_Park.jpg";
+import Koala_In_French_Island from "../../../assets/images/Personal/Looking_Back_At_2022/Koala_In_French_Island.jpg";
+import On_The_Way_To_Phillip_Island from "../../../assets/images/Personal/Looking_Back_At_2022/On_The_Way_To_Phillip_Island.jpg";
+import Twelve_Apostles_At_Great_Ocean_Road from "../../../assets/images/Personal/Looking_Back_At_2022/Twelve_Apostles_At_Great_Ocean_Road.jpg";
+import Great_Ocean_Road from "../../../assets/images/Personal/Looking_Back_At_2022/Great_Ocean_Road.jpg";
+import Quokka_In_Rottnest_Island from "../../../assets/images/Personal/Looking_Back_At_2022/Quokka_In_Rottnest_Island.jpg";
+import Rottnest_Island from "../../../assets/images/Personal/Looking_Back_At_2022/Rottnest_Island.jpg";
+import Optus_Cricket_Stadium_Perth from "../../../assets/images/Personal/Looking_Back_At_2022/Optus_Cricket_Stadium_Perth.jpg";
+import Rottnest_Island1 from "../../../assets/images/Personal/Looking_Back_At_2022/Rottnest_Island1.jpg";
+import At_Sunray_Village_Resort from "../../../assets/images/Personal/Looking_Back_At_2022/At_Sunray_Village_Resort.jpg";
+import At_Flower_Street_In_Sunray_Village_Resort from "../../../assets/images/Personal/Looking_Back_At_2022/At_Flower_Street_In_Sunray_Village_Resort.jpg";
+import At_Sterling_Palavelli_Godavari from "../../../assets/images/Personal/Looking_Back_At_2022/At_Sterling_Palavelli_Godavari.jpg";
+import book_2022_1 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_1.jpg";
+import book_2022_2 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_2.jpg";
+import book_2022_3 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_3.jpg";
+import book_2022_4 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_4.jpg";
+import book_2022_5 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_5.jpg";
+import book_2022_6 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_6.jpg";
+import book_2022_7 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_7.jpg";
+import book_2022_8 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_8.jpg";
+import book_2022_9 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_9.jpg";
+import book_2022_10 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_10.jpg";
+import book_2022_11 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_11.jpg";
+import book_2022_12 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_12.jpg";
+import book_2022_13 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_13.jpg";
+import book_2022_14 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_14.jpg";
+import book_2022_15 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_15.jpg";
+import book_2022_16 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_16.jpg";
+import book_2022_17 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_17.jpg";
+import book_2022_18 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_18.jpg";
+import book_2022_19 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_19.jpg";
+import book_2022_20 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_20.jpg";
+import book_2022_21 from "../../../assets/images/Personal/Looking_Back_At_2022/book_2022_21.jpg";
+import Sql_Course_Image from "../../../assets/images/Personal/Looking_Back_At_2022/Sql_Course_Image.jpg";
+import Java_Course_Image from "../../../assets/images/Personal/Looking_Back_At_2022/Java_Course_Image.jpg";
 
 
-export const looking_Back_At_2022: BlogPost = {
-  id: "1",
+export const Looking_Back_At_2022: BlogPost = {
+  id: "8",
   title: "Looking back at 2022",
   slug: "looking-back-at-2022",
   category: "Personal",
@@ -327,7 +327,8 @@ export const looking_Back_At_2022: BlogPost = {
             },
             {
                 type: "image",
-                src: Sql_Course_Image
+                src: Sql_Course_Image,
+                link: "https://www.udemy.com/course/database-and-sql-for-beginners/?referralCode=53EB7AF4D4870C60D909"
             },
             {
                 type: "subheading",
@@ -346,7 +347,8 @@ export const looking_Back_At_2022: BlogPost = {
             },
             {
                 type: "image",
-                src: Java_Course_Image
+                src: Java_Course_Image,
+                link: "https://www.udemy.com/course/core-java-interview-questions/?referralCode=AC09E9385C762516463D"
             },
             {
                 type: "paragraph",

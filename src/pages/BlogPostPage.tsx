@@ -96,18 +96,35 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
       </h3>
     );
   }
+  if (block.type === "link") {
+    return (
+      <a key={index} href={block.url} className="text-blue-600 hover:underline">
+        {block.text}
+      </a>
+    );
+  }
 
   if (block.type === "image") {
+    const imageElement = (
+      <img
+        src={block.src}
+        alt={block.caption || ""}
+        className="block object-cover w-full h-auto"
+      />
+    );
+
     return (
       <figure
         key={index}
         className="my-6 overflow-hidden bg-white border border-gray-200 rounded-xl shadow-sm"
       >
-        <img
-          src={block.src}
-          alt={block.caption || ""}
-          className="block object-cover w-full h-auto"
-        />
+        {block.link ? (
+          <a href={block.link} target="_blank" rel="noopener noreferrer">
+            {imageElement}
+          </a>
+        ) : (
+          imageElement
+        )}
         {block.caption && (
           <figcaption className="px-4 py-3 text-base font-semibold text-center text-gray-700">
             {block.caption}
