@@ -10,6 +10,12 @@ export type BlogPost = {
 
 export type RichTextContent = string | { type: "link"; text: string; url: string } | { type: "bold"; text: string };
 
+export type LinkContent = {
+  type: "link";
+  text?: string;
+  url: string;
+};
+
 export type InlineContent =
   | {
       type: "paragraph";
@@ -31,7 +37,7 @@ export type BlogContentBlock =
     }
   | {
       type: "list";
-      items: string[];
+      items: (string | RichTextContent[] | LinkContent)[];
     }
   | {
       type: "table";
@@ -47,12 +53,7 @@ export type BlogContentBlock =
       type: "subheading";
       text: string;
     }
-  |
-  {
-    type: "link";
-    text?: string;
-    url: string;
-  }
+  | LinkContent;
 
 export type BlogSection = {
   id: string;

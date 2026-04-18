@@ -229,7 +229,11 @@ export const Looking_Back_At_2020: BlogPost = {
           },
           {
             type: "paragraph",
-            text: "Apart from these new courses, I have significantly enhanced my C Language for Beginners course by adding more lessons.",
+            text: [
+              "Apart from these new courses, I have significantly enhanced my ",
+              { type: "link", text: "C Language for Beginners", url: "#" },
+              " course by adding more lessons."
+            ]
           },
           {
             type: "subheading",
@@ -350,7 +354,6 @@ export const Looking_Back_At_2020: BlogPost = {
             }
         ]
       },
-      /* Complete list of videos routing later*/
       {
         id: "videos",
         title: "Videos",
@@ -361,22 +364,84 @@ export const Looking_Back_At_2020: BlogPost = {
             },
             {
                 type: "list",
-                items: [ "How to integrate Tomcat with Eclipse", "Using Apache Derby (Java DB) from JDBC",
-                    "Compile-time Polymorphism vs. Runtime Polymorphism",
-                    "Learning Path for Software Developers",
-                    "Getting Started with Apache Derby",
-                    "Function Declaration vs. Function Definition in C Language",
-                    "Synchronization of Threads in Java",
-                    "Learn how to use Lambda Expressions in Python",
-                    "Pass by Value vs. Pass by Reference in Python",
-                    "Why to use Unions in 'C' Language",
-                    "Preprocessor in 'C' Language",
-                    "Pointer to Structure in 'C' Language",
-                    "Getting Started with Java SE 15",
-                    "Getting Started with Eclipse IDE for Java Developers",
-                    "Deploying Django Web Application to PythonAnywhere.com"
+                items: [ 
+                  {
+                    type : "link",
+                    text: "How to integrate Tomcat with Eclipse", 
+                    url: "https://youtu.be/flERv6JErPo"
+                  },
+                  {
+                    type : "link",
+                    text: "Using Apache Derby (Java DB) from JDBC",
+                    url: "https://youtu.be/flERv6JErPo"
+                  },
+                  {
+                    type: "link",
+                    text: "Compile-time Polymorphism vs. Runtime Polymorphism",
+                    url: "https://youtu.be/MkBelZskmNc"
+                  },
+                  {
+                    type: "link",
+                    text: "Learning Path for Software Developers",
+                    url: "https://youtu.be/tB0VH-2AoBI"
+                  },
+                  {
+                    type: "link",
+                    text: "Getting Started with Apache Derby",
+                    url: "https://youtu.be/Rv886mBDWBg"
+                  },
+                  {
+                    type: "link",
+                    text: "Function Declaration vs. Function Definition in C Language",
+                    url: "https://youtu.be/MtWZg6vA4CA"
+                  },
+                  {
+                    type: "link",
+                    text: "Synchronization of Threads in Java",
+                    url: "https://youtu.be/bGNqMUa6Vck"
+                  },
+                  {
+                    type: "link",
+                    text: "Learn how to use Lambda Expressions in Python",
+                    url: "https://youtu.be/YFKNOab8p2o"
+                  },
+                  {
+                    type: "link",
+                    text: "Pass by Value vs. Pass by Reference in Python",
+                    url: "https://youtu.be/Q46QH0R4VCo"
+                  },
+                  {
+                    type: "link",
+                    text: "Why to use Unions in 'C' Language",
+                    url: "https://youtu.be/QEu4FKOjhqs"
+                  },
+                  {
+                    type: "link",
+                    text: "Preprocessor in 'C' Language",
+                    url: "https://youtu.be/X-ORGe1WXkQ"
+                  },
+                  {
+                    type: "link",
+                    text: "Pointer to Structure in 'C' Language",
+                    url: "https://youtu.be/iKdd9JSrjWo"
+                  },
+                  {
+                    type: "link",
+                    text: "Getting Started with Java SE 15",
+                    url: "https://youtu.be/Po6BL5_8CPk"
+                  },
+                  {
+                    type: "link",
+                    text: "Getting Started with Eclipse IDE for Java Developers",
+                    url: "https://youtu.be/6nvjwUFGQVM"
+                  },
+                  {
+                    type: "link",
+                    text: "Deploying Django Web Application to PythonAnywhere.com",
+                    url: "https://youtu.be/H7GTDwgXDBc"
+                  }
                 ]
-            }
+              }
         ]
       },
       {

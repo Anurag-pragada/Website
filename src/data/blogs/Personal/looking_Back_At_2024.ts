@@ -268,7 +268,7 @@ export const Looking_Back_At_2024: BlogPost = {
         { src: Before_Pranav_Leaving_For_US, caption: "Before Pranav Leaving For US" },
       ],
     },
-    /* Implement the power bi course details rerouting to the course page */
+    /* complete the power bi course details rerouting to the course page */
     {
       id: "new-courses-launched",
       title: "New Courses Launched",
@@ -295,7 +295,7 @@ export const Looking_Back_At_2024: BlogPost = {
         },
       ],
     },
-    /* Implement the accessing mongodb from nodejs course details rerouting to the course page */
+    /* complete the accessing mongodb from nodejs course details rerouting to the course page */
     {
       id: "blogs",
       title: "Blogs",
@@ -321,11 +321,31 @@ export const Looking_Back_At_2024: BlogPost = {
         {
           type: "list",
           items: [
-            "How Characters Are Stored in Computer Memory!",
-            "Getting Started with Power BI",
-            "Getting Started with Anaconda and JupyterLab",
-            "Shallow Copy vs. Deep Copy in Python",
-            "How to use JSON Server to create Mock API"
+            {
+              type: "link",
+              text: "How Characters Are Stored in Computer Mermory!",
+              url: "https://youtu.be/FlHT9L5Ptgs"
+            },
+            {
+              type: "link",
+              text: "Getting Started with Power BI",
+              url: "https://youtu.be/9dN7l7I_CSQ"
+            },
+            {
+              type: "link",
+              text: "Getting Started with Anaconda and JupyterLab",
+              url: "https://youtu.be/gP9bbcw9iYQ"
+            },
+            {
+              type: "link",
+              text: "Shallow Copy vs. Deep Copy in Python",
+              url: "https://youtu.be/cDQ2xS38dpc"
+            },
+            {
+              type: "link",
+              text: "How to use JSON Server to create Mock API",
+              url: "https://youtu.be/g2x2J-7f4vs"
+            }
           ],
         },
       ],

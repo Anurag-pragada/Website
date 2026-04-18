@@ -305,7 +305,6 @@ export const Looking_Back_At_2022: BlogPost = {
   },
 ]
     },
-    /* Complete the routing of on demand video courses in Udemy */
     {
         id: "new_courses_in_udemy",
         title: "New Courses in Udemy",
@@ -416,7 +415,6 @@ export const Looking_Back_At_2022: BlogPost = {
             }
         ]
     },
-    /* Complete the routing for all the videos*/
     {
         id: "videos",
         title: "Videos",
@@ -428,12 +426,36 @@ export const Looking_Back_At_2022: BlogPost = {
             {
                 type: "list",
                 items: [
-                    "Mutable and Immutable objects in Python",
-                    "How to pass a function as a parameter in Python",
-                    "How to use filter() function in Python",
-                    "How to use sorted() function in Python",
-                    "How to use map() function in Python",
-                    "Overloading in Python"
+                  {
+                    type: "link",
+                    text: "Mutable and Immutable objects in Python",
+                    url: "https://youtu.be/YPqSwaek1mk"
+                  },
+                  {
+                    type: "link",
+                    text: "How to pass a function as a parameter in Python",
+                    url: "https://youtu.be/wmG2RF3pCF0"
+                  },
+                  {
+                    type: "link",
+                    text: "How to use filter() function in Python",
+                    url: "https://youtu.be/lr6D_LySpVg"
+                  },
+                  {
+                    type: "link",
+                    text: "How to use sorted() function in Python",
+                    url: "https://youtu.be/6keZ0Hbc05k"
+                  },
+                  {
+                    type: "link",
+                    text: "How to use map() function in Python",
+                    url: "https://youtu.be/3ATWPF5CiMY"
+                  },
+                  {
+                    type: "link",
+                    text: "Overloading in Python",
+                    url: "https://youtu.be/TyD0n2pAEJE"
+                  }
                 ]
             }
         ]

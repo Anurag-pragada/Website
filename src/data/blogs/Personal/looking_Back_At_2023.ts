@@ -434,7 +434,6 @@ export const Looking_Back_At_2023: BlogPost = {
             }
         ]
     },
-    /* Complete the routing for all the videos*/
     {
         id: "videos",
         title: "Videos",
@@ -446,11 +445,31 @@ export const Looking_Back_At_2023: BlogPost = {
             {
                 type: "list",
                 items: [
-                    "How to use JPA (Hibernate) with Oracle Database 19c",
-                    "Spread Operator in JavaScript",
-                    "Arrow Function Expression in JavaScript",
-                    "Destructuring Assignment in JavaScript",
-                    "How to use Comparator in Java"
+                  {
+                    type: "link",
+                    text: "How to use JPA (Hibernate) with Oracle Database 19c",
+                    url: "https://youtu.be/aWUxe9cnXnI"
+                  },
+                  {
+                    type: "link",
+                    text: "Spread Operator in JavaScript",
+                    url: "https://youtu.be/nY76-fv5fuc"
+                  },
+                  {
+                    type: "link",
+                    text: "Arrow Function Expression in JavaScript",
+                    url: "https://youtu.be/kPrSJrjdSPE"
+                  },
+                  {
+                    type: "link",
+                    text: "Destructuring Assignment in JavaScript",
+                    url: "https://youtu.be/xrH9sldckv0"
+                  },
+                  {
+                    type: "link",
+                    text: "How to use Comparator in Java",
+                    url: "https://youtu.be/bi9GoyONZJY"
+                  }
                 ]
             }
         ]

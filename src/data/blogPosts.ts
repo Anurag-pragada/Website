@@ -3,12 +3,14 @@ import { Anniversary_of_Srikanth_Technologies } from "./blogs/Personal/Anniversa
 import { ThirtyTwoYearsAndCounting } from "./blogs/Personal/ThirtyTwoYearsAndCounting";
 import { What_I_Learned_In_The_Last_six_years } from "./blogs/Personal/What_I_Learned_In_The_Last_six_years";
 import { I_am_now_AWS_Certified_Practitioner } from "./blogs/Personal/I_am_now_AWS_Certified_Practitioner";
-import {Looking_Back_At_2025} from "./blogs/Personal/looking_Back_At_2025";
-import {Looking_Back_At_2024} from "./blogs/Personal/looking_Back_At_2024";
-import {Looking_Back_At_2023} from "./blogs/Personal/looking_Back_At_2023";
-import {Looking_Back_At_2022} from "./blogs/Personal/looking_Back_At_2022";
-import {Looking_Back_At_2021} from "./blogs/Personal/looking_Back_At_2021";
+import {Looking_Back_At_2025} from "./blogs/Personal/Looking_Back_At_2025";
+import {Looking_Back_At_2024} from "./blogs/Personal/Looking_Back_At_2024";
+import {Looking_Back_At_2023} from "./blogs/Personal/Looking_Back_At_2023";
+import {Looking_Back_At_2022} from "./blogs/Personal/Looking_Back_At_2022";
+import {Looking_Back_At_2021} from "./blogs/Personal/Looking_Back_At_2021";
 import {Looking_Back_At_2020} from "./blogs/Personal/Looking_Back_At_2020";
+import {Looking_Back_At_2019} from "./blogs/Personal/Looking_Back_At_2019";
+import {Looking_Back_At_2018} from "./blogs/Personal/Looking_Back_At_2018";
 
 export const blogPosts: BlogPost[] = 
 [
@@ -21,5 +23,7 @@ export const blogPosts: BlogPost[] =
   I_am_now_AWS_Certified_Practitioner,
   Looking_Back_At_2022,
   Looking_Back_At_2021,
-  Looking_Back_At_2020
+  Looking_Back_At_2020,
+  Looking_Back_At_2019,
+  Looking_Back_At_2018
 ];

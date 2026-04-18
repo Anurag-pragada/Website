@@ -317,6 +317,7 @@ export const Looking_Back_At_2021: BlogPost = {
         }
       ]
     },
+    /* complete the blog routing later */
     {
         id: "blogs",
         title: "Blogs",
@@ -348,14 +349,46 @@ export const Looking_Back_At_2021: BlogPost = {
             {
                 type: "list",
                 items: [
-                    "Bubble Sort in 'C' Language",
-                    "New features of Python 3.10",
-                    "How to use Java Streams",
-                    "Generators in Python",
-                    "Iterators in Python",
-                    "Getting Started with MySQL",
-                    "Binary Files and Random Access in C Language",
-                    "Using Command Line Arguments in C Language"
+                  {
+                    type: "link",
+                    text: "Bubble Sort in 'C' Language",
+                    url: "https://youtu.be/s1B2GZa2n3g"
+                  },
+                  {
+                    type: "link",
+                    text: "New features of Python 3.10",
+                    url: "https://youtu.be/h86ESRLiqYo"
+                  },
+                  {
+                    type: "link",
+                    text: "How to use Java Streams",
+                    url: "https://youtu.be/81KXX1AEuLA"
+                  },
+                  {
+                    type: "link",
+                    text: "Generators in Python",
+                    url: "https://youtu.be/7KPbPwSBbOM"
+                  },
+                  {
+                    type: "link",
+                    text: "Iterators in Python",
+                    url: "https://youtu.be/GNaTrZuOcBI"
+                  },
+                  {
+                    type: "link",
+                    text: "Getting Started with MySQL",
+                    url: "https://youtu.be/YAMUdyGi0KI"
+                  },
+                  {
+                    type: "link",
+                    text: "Binary Files and Random Access in C Language",
+                    url: "https://youtu.be/WTRYbqp_X1E"
+                  },
+                  {
+                    type: "link",
+                    text: "Using Command Line Arguments in C Language",
+                    url: "https://youtu.be/e71qzHCAkAE"
+                  }
                 ]
             }
         ]

@@ -56,9 +56,50 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
   if (block.type === "list") {
     return (
       <ul key={index} className="pl-6 mt-4 space-y-2 list-disc first:mt-0">
-        {block.items.map((item: string, itemIndex: number) => (
-          <li key={itemIndex}>{item}</li>
-        ))}
+        {block.items.map((item: any, itemIndex: number) => {
+          if (typeof item === "string") {
+            return <li key={itemIndex}>{item}</li>;
+          }
+
+          if (Array.isArray(item)) {
+            return (
+              <li key={itemIndex}>
+                {item.map((t: any, i: number) => {
+                  if (typeof t === "string") return <span key={i}>{t}</span>;
+                  if (t.type === "link")
+                    return (
+                      <a
+                        key={i}
+                        href={t.url}
+                        className="text-blue-600 hover:underline"
+                      >
+                        {t.text}
+                      </a>
+                    );
+                  if (t.type === "bold")
+                    return (
+                      <strong key={i} className="font-bold text-gray-900">
+                        {t.text}
+                      </strong>
+                    );
+                  return null;
+                })}
+              </li>
+            );
+          }
+
+          if (item.type === "link") {
+            return (
+              <li key={itemIndex}>
+                <a href={item.url} className="text-blue-600 hover:underline">
+                  {item.text}
+                </a>
+              </li>
+            );
+          }
+
+          return <li key={itemIndex} />;
+        })}
       </ul>
     );
   }

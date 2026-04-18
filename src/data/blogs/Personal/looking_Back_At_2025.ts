@@ -303,6 +303,7 @@ export const Looking_Back_At_2025: BlogPost = {
         { src: Ghibli_Art_Of_Family, caption: "Ghibli Art Of Family" },
       ],
     },
+    /* Complete the gen ai coure routing later */
     {
       id: "new-course-gen-ai-rag-agents-and-mcp",
       title: "New Course - Gen AI:RAG, Agents and MCP",
@@ -321,10 +322,17 @@ export const Looking_Back_At_2025: BlogPost = {
         },
         {
           type: "paragraph",
-          text: "For more details and syllabus of this course, please visit Gen AI: RAG, Agents and MCP in my website.",
+          text: [
+            "For more details and syllabus of this course, please visit",
+            {type: "link", text: "Gen AI: RAG, Agents and MCP",
+              url: "#"
+            },
+            "in my website."
+          ],
         },
       ],
     },
+    /* Complete the Java course page later and then complete the routing */
     {
       id: "new-udemy-course-java-language",
       title: "New Udemy Course - Java Language",
@@ -339,7 +347,13 @@ export const Looking_Back_At_2025: BlogPost = {
         },
         {
           type: "list",
-          items: ["Java Language"],
+          items: [
+            {
+              type: "link",
+              text: "Java Language",
+              url: "#"
+            },
+          ],
         },
       ],
     },
@@ -354,10 +368,26 @@ export const Looking_Back_At_2025: BlogPost = {
         {
           type: "list",
           items: [
-            "Getting Started with Ollama",
-            "Difference between Active and Inactive Relationship in Power BI",
-            "How to install SQL Server Express Edition and SQL Server Management Studio",
-            "Loading data from SQLite Database into Power BI using Python",
+            {
+              type: "link",
+              text: "Getting Started with Ollama",
+              url: "https://youtu.be/-FM6Yp6KR6s"
+            },
+            {
+              type: "link",
+              text: "Difference between Active and Inactive Relationship in Power BI",
+              url: "https://youtu.be/Z8j7y0UFuno"
+            },
+            {
+              type: "link",
+              text: "How to install SQL Server Express Edition and SQL Server Management Studio",
+              url: "https://youtu.be/yjnHvr2YIMU"
+            },
+            {
+              type: "link",
+              text: "Loading data from SQLite Database into Power BI using Python",
+              url: "https://youtu.be/evjHu75lMTs"
+            },
           ],
         },
       ],
