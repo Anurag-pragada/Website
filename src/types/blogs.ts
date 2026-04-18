@@ -3,9 +3,9 @@ export type BlogPost = {
   title: string;
   slug: string;
   category: string;
-  date?: string;
+  date: string;
   intro: string | (string | InlineContent)[] | InlineContent[][];
-  sections?: BlogSection[];
+  sections: BlogSection[];
 };
 
 export type RichTextContent = string | { type: "link"; text: string; url: string } | { type: "bold"; text: string };
@@ -56,9 +56,9 @@ export type BlogContentBlock =
   | LinkContent;
 
 export type BlogSection = {
-  id: string;
-  title: string;
-  content: BlogContentBlock[];
+  id?: string;
+  title?: string;
+  content?: BlogContentBlock[];
   images?: BlogImage[];
 };
 

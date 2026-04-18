@@ -11,6 +11,8 @@ import {Looking_Back_At_2021} from "./blogs/Personal/Looking_Back_At_2021";
 import {Looking_Back_At_2020} from "./blogs/Personal/Looking_Back_At_2020";
 import {Looking_Back_At_2019} from "./blogs/Personal/Looking_Back_At_2019";
 import {Looking_Back_At_2018} from "./blogs/Personal/Looking_Back_At_2018";
+import {My_new_course_C_Interview_Questions} from "./blogs/Personal/My_new_course_C_Interview_Questions";
+import {Looking_Back_At_2017} from "./blogs/Personal/Looking_Back_At_2017";
 
 export const blogPosts: BlogPost[] = 
 [
@@ -25,5 +27,7 @@ export const blogPosts: BlogPost[] =
   Looking_Back_At_2021,
   Looking_Back_At_2020,
   Looking_Back_At_2019,
-  Looking_Back_At_2018
+  Looking_Back_At_2018,
+  My_new_course_C_Interview_Questions,
+  Looking_Back_At_2017
 ];
