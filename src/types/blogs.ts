@@ -4,7 +4,7 @@ export type BlogPost = {
   slug: string;
   category: string;
   date: string;
-  intro: string | (string | InlineContent)[] | InlineContent[][];
+  intro?: string | (string | InlineContent)[] | InlineContent[][];
   sections: BlogSection[];
 };
 

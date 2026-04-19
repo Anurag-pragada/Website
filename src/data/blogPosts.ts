@@ -13,6 +13,13 @@ import {Looking_Back_At_2019} from "./blogs/Personal/Looking_Back_At_2019";
 import {Looking_Back_At_2018} from "./blogs/Personal/Looking_Back_At_2018";
 import {My_new_course_C_Interview_Questions} from "./blogs/Personal/My_new_course_C_Interview_Questions";
 import {Looking_Back_At_2017} from "./blogs/Personal/Looking_Back_At_2017";
+import {Twenty_Five_Years_Of_Blissful_Training} from "./blogs/Personal/Twenty_Five_Years_Of_Blissful_Training";
+import {Looking_Back_At_2016} from "./blogs/Personal/Looking_Back_At_2016";
+import {Looking_Back_At_2015} from "./blogs/Personal/Looking_Back_At_2015";
+import {My_Day} from "./blogs/Personal/My_Day";
+import {Looking_Back_At_2014} from "./blogs/Personal/Looking_Back_At_2014";
+import {Books_I_Recommend} from "./blogs/Personal/Books_I_Recommend";
+import {Looking_Back_At_2013} from "./blogs/Personal/Looking_Back_At_2013";
 
 export const blogPosts: BlogPost[] = 
 [
@@ -29,5 +36,12 @@ export const blogPosts: BlogPost[] =
   Looking_Back_At_2019,
   Looking_Back_At_2018,
   My_new_course_C_Interview_Questions,
-  Looking_Back_At_2017
+  Looking_Back_At_2017,
+  Twenty_Five_Years_Of_Blissful_Training,
+  Looking_Back_At_2016,
+  Looking_Back_At_2015,
+  My_Day,
+  Looking_Back_At_2014,
+  Books_I_Recommend,
+  Looking_Back_At_2013
 ];
