@@ -12,6 +12,39 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
   }
 
   if (Array.isArray(block)) {
+    const isInline = block.every(
+      (b) => typeof b === "string" || b.type === "bold" || b.type === "link"
+    );
+
+    if (isInline) {
+      return (
+        <p key={index} className="mt-4 first:mt-0">
+          {block.map((b: any, i: number) => {
+            if (typeof b === "string") return <span key={i}>{b}</span>;
+            if (b.type === "link")
+              return (
+                <a
+                  key={i}
+                  href={b.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  {b.text}
+                </a>
+              );
+            if (b.type === "bold")
+              return (
+                <strong key={i} className="font-bold text-gray-900">
+                  {b.text}
+                </strong>
+              );
+            return null;
+          })}
+        </p>
+      );
+    }
+
     return (
       <div key={index} className="my-4">
         {block.map((b, i) => renderBlock(b, i))}
@@ -30,6 +63,8 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
                 <a
                   key={i}
                   href={t.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
                 >
                   {t.text}
@@ -71,6 +106,8 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
                       <a
                         key={i}
                         href={t.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
                       >
                         {t.text}
@@ -91,7 +128,12 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
           if (item.type === "link") {
             return (
               <li key={itemIndex}>
-                <a href={item.url} className="text-blue-600 hover:underline">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
                   {item.text}
                 </a>
               </li>
@@ -139,9 +181,24 @@ const renderBlock = (block: any, index: number): React.ReactNode => {
   }
   if (block.type === "link") {
     return (
-      <a key={index} href={block.url} className="text-blue-600 hover:underline">
+      <div key={index} className="mt-4">
+        <a
+          href={block.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline font-medium"
+        >
+          {block.text}
+        </a>
+      </div>
+    );
+  }
+
+  if (block.type === "bold") {
+    return (
+      <strong key={index} className="font-bold text-gray-900">
         {block.text}
-      </a>
+      </strong>
     );
   }
 
@@ -196,16 +253,11 @@ const BlogPostPage = () => {
           {post.category} • {post.date}
         </p>
 
-        {post.intro &&
-          (Array.isArray(post.intro) ? (
-            <div className="mb-8 font-medium text-gray-700 text-md">
-              {post.intro.map((line, index) => renderBlock(line, index))}
-            </div>
-          ) : (
-            <div className="mb-8 font-medium text-gray-700 text-md">
-              {renderBlock(post.intro, 0)}
-            </div>
-          ))}
+        {post.intro && (
+          <div className="mb-8 font-medium text-gray-700 text-md">
+            {renderBlock(post.intro, 0)}
+          </div>
+        )}
 
         <div className="space-y-10">
           {post.sections?.map((section) => (
@@ -217,7 +269,7 @@ const BlogPostPage = () => {
               )}
 
               <div className="space-y-4 leading-7 text-gray-800">
-                {section.content.map((block, index) =>
+                {section.content?.map((block, index) =>
                   renderBlock(block, index),
                 )}
               </div>

@@ -19,7 +19,7 @@ export type LinkContent = {
 export type InlineContent =
   | {
       type: "paragraph";
-      text: string | RichTextContent[];
+      text: string | RichTextContent[] | { type: "bold"; text: string };
     }
   | {
       type: "list";
@@ -28,7 +28,8 @@ export type InlineContent =
   | {
       type: "table";
       rows: string[][];
-    };
+    }
+  | { type: "bold"; text: string };
 
 export type BlogContentBlock =
   | {

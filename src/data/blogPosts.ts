@@ -20,6 +20,13 @@ import {My_Day} from "./blogs/Personal/My_Day";
 import {Looking_Back_At_2014} from "./blogs/Personal/Looking_Back_At_2014";
 import {Books_I_Recommend} from "./blogs/Personal/Books_I_Recommend";
 import {Looking_Back_At_2013} from "./blogs/Personal/Looking_Back_At_2013";
+import {My_Teachers} from "./blogs/Personal/My_Teachers";
+import {I_am_now_Oracle_PL_SQL_Developer_Certified_Associate} from "./blogs/Personal/I_am_now_Oracle_PL_SQL_Developer_Certified_Associate";
+import {Looking_Back_At_2012} from "./blogs/Personal/Looking_Back_At_2012";
+import {Looking_Back_At_2011} from "./blogs/Personal/Looking_Back_At_2011";
+import {Thirteen_Years} from "./blogs/Personal/Thirteen_Years";
+import {Java_EE_Training_at_VSP} from "./blogs/Personal/Java_EE_Training_at_VSP";
+import {Looking_Back_At_2010} from "./blogs/Personal/Looking_Back_At_2010";
 
 export const blogPosts: BlogPost[] = 
 [
@@ -43,5 +50,12 @@ export const blogPosts: BlogPost[] =
   My_Day,
   Looking_Back_At_2014,
   Books_I_Recommend,
-  Looking_Back_At_2013
+  Looking_Back_At_2013,
+  My_Teachers,
+  I_am_now_Oracle_PL_SQL_Developer_Certified_Associate,
+  Looking_Back_At_2012,
+  Looking_Back_At_2011,
+  Thirteen_Years,
+  Java_EE_Training_at_VSP,
+  Looking_Back_At_2010
 ];
